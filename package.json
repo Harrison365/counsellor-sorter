@@ -1,0 +1,23 @@
+{
+  "name": "counsellor-sorter",
+  "version": "1.0.0",
+  "description": "sorting counsellors for days off",
+  "main": "counsellors.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harrison365/counsellor-sorter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harrison365/counsellor-sorter/issues"
+  },
+  "homepage": "https://github.com/Harrison365/counsellor-sorter#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
