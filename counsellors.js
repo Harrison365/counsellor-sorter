@@ -83,4 +83,18 @@ const counsellors = [
     p2: "zumba",
     cabin: "B7",
   },
+  {
+    name: "Connor",
+    p1: "free",
+    p2: "free",
+    cabin: "B8",
+  },
+  {
+    name: "Jack",
+    p1: "free",
+    p2: "free",
+    cabin: "B8",
+  },
 ];
+
+module.exports = { counsellors };
