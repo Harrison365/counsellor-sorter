@@ -22,10 +22,13 @@ const sorter = (counsellors) => {
 
     //Add conditional logic to prevent counsellors with the same schedule being matched
   }
-
-  return {
-    shuffledWeekArray,
+  let obj = {
+    monday: mondayArray,
+    tuesday: tuesdayArray,
+    wednesday: wednesdayArray,
+    thursday: thursdayArray,
   };
+  return obj;
 };
 
 module.exports = { sorter };
