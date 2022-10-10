@@ -10,13 +10,14 @@ const sorter = (counsellors) => {
 
   let weekArray = [mondayArray, tuesdayArray, wednesdayArray, thursdayArray];
   let shuffledWeekArray = weekArray.sort(() => Math.random() - 0.5); //the days which recieve extra counsellors is now random
-  let adderCounter = 1;
+  let adderCounter = 0;
 
   for (let i = 0; i < shuffledCounsellors.length; i++) {
     shuffledWeekArray[adderCounter].push(shuffledCounsellors[i]);
+
     adderCounter++;
-    if (adderCounter == 5) {
-      adderCounter = 1;
+    if (adderCounter == 4) {
+      adderCounter = 0;
     }
 
     //Add conditional logic to prevent counsellors with the same schedule being matched
