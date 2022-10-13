@@ -32,5 +32,3 @@ const sorter = (counsellors) => {
 };
 
 module.exports = { sorter };
-
-console.log(sorter(counsellors));
